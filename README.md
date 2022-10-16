@@ -111,3 +111,49 @@ _O desafio acima foi cuidadosamente construído para propósitos de avaliação 
 
 ---
 >### Certifique-se de que o projeto esta rodando antes de acessar a documentação.
+
+# Exemplos básicos de requisição:
+   
+    Method POST
+    Rota: /payment-scheduler
+
+    Enviado: {
+      "namePayment": "Comprar carro",
+      "schedulingDate": "2122-10-16T15:58:09.644Z"
+    }
+    
+    Recebido: {
+      "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+---
+    
+    Method GET
+    Rota: /payment-scheduler/3fa85f64-5717-4562-b3fc-2c963f66afa6
+    
+    Recebido: {
+       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+       "namePayment": "Comprar carro",
+       "schedulingDate": "2122-10-16T15:58:09.644Z",
+       "created_at": "2022-10-16T15:58:09.644Z",
+       "status": "pending"
+    }
+---
+    
+    Method PATCH
+    Rota: /payment-scheduler/3fa85f64-5717-4562-b3fc-2c963f66afa6
+    
+    Enviado: {
+      "schedulingDate": "3122-10-16T15:58:09.644Z"
+    }
+    
+    Recebido: {
+       "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+       "namePayment": "Comprar carro",
+       "schedulingDate": "3122-10-16T15:58:09.644Z",
+       "created_at": "2022-10-16T15:58:09.644Z",
+       "status": "pending"
+    }
+---
+>### Lembrando que você não pode atualizar ou deletar um agendamento que ja foi pago.
+>### Ao chegar na data de agendamento(schedulingDate) o status será modificado para paid. 
+    
