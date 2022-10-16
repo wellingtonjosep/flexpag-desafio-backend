@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.flexpag.paymentscheduler.PaymentSchedulerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.696 s - in com.flexpag.paymentscheduler.PaymentSchedulerServiceTest

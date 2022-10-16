@@ -1,0 +1,4 @@
+com\flexpag\paymentscheduler\AplicationConfigTest.class
+com\flexpag\paymentscheduler\PaymentSchedulerServiceTest.class
+com\flexpag\paymentscheduler\PaymentSchedulerControllerTest.class
+com\flexpag\paymentscheduler\PaymentSchedulerApplicationTests.class

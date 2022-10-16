@@ -1,0 +1,11 @@
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\models\PaymentSchedulerModel.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\validations\LocalDateTimeValidation.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\repositories\PaymentSchedulerRepository.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\constraints\LocalDateTimeInterface.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\controllers\PaymentSchedulerController.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\dtos\PaymentSchedulerUpdateDto.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\SpringFoxConfig.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\components\PaymentSchedulerComponent.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\dtos\PaymentSchedulerDto.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\services\PaymentSchedulerService.java
+C:\Users\paiva\Desktop\desafios\back-end flexpag\flexpag-desafio-backend\src\main\java\com\flexpag\paymentscheduler\PaymentSchedulerApplication.java
