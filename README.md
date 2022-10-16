@@ -97,7 +97,9 @@ _O desafio acima foi cuidadosamente construído para propósitos de avaliação 
 
 
 # Observações sobre o projeto:
-
+---
+> Removi o target/ do .gitignore para realizar o docker build 
+---
 >### Este projeto foi desenvolvido com [Docker](https://www.docker.com/) então ao iniciar o projeto digite:
 
     Criando imagem: docker build -t spring-app .
